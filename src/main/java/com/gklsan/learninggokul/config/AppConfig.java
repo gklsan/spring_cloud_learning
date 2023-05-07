@@ -6,12 +6,6 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class AppConfig {
-
-//    @Bean
-//    public WebClient webClient() {
-//        return WebClient.create();
-//    }
-
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
